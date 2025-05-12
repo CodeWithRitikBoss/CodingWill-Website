@@ -122,6 +122,10 @@ nav button {
     font-weight: bolder;
     margin: 5px;
 }
+nav ul button a{
+    color: var(--color1);
+    text-decoration: none;
+}
 nav button:hover {
     background-color: yellowgreen;
 }

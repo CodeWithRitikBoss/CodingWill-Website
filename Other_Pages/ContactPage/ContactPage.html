@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="MyLogo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2:wght@500&family=Poppins:wght@300&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Createing Variables. */
+        :root {
+            /* Dark Theme Colors. */
+            --darkColor1: #09090B;
+            --darkColor2: #0F121A;
+            --darkColor3: #1D1D20;
+            --darkColor4: #121826;
+
+
+            /* Light Theme Colors. */
+            --lightColor1: #ffffff;
+            --lightColor2: #cbaeae;
+        }
+
+        body {
+            background-color: var(--darkColor1);
+            color: white;
+            font-family: 'Baloo Bhai 2', 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .contactBox {
+            background-color: var(--darkColor3);
+            width: 70vw;
+            min-height: 50vh;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 100px auto;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgb(172, 172, 237);
+        }
+
+        .contactBox:hover {
+            box-shadow: 2px 4px 8px yellow;
+            color: yellow;
+        }
+
+        .contactBox h1 {
+            margin: 30px auto;
+            font-weight: 600;
+            font-size: 40px;
+        }
+
+        .contactBox h1:hover {
+            color: yellow;
+        }
+        .logo {
+            width: 20%;
+            height: 20%;
+        }
+
+        .icons img {
+            width: 5%;
+            height: 5%;
+            margin: 30px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Contac Page</h1> -->
+
+    <div class="contactBox">
+        <h1>Feel free to contact me!</h1>
+        <img class="logo" src="CodingWill Logo.png" alt="MyLogo">
+        <div class="icons">
+            <a href="#"><img src="github_icon.svg" alt="github_icon"></a>
+            <a href="#"><img src="instagram_icon.svg" alt="instagram_icon"></a>
+            <a href="#"><img src="youtube_icon.svg" alt="youtube_icon"></a>
+            <a href="#"><img src="whatsapp_icon.svg" alt="whatsapp_icon"></a>
+        </div>
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/MyWebsites/HomePage/script.js"></script>
+</body>
+
+</html>
