@@ -1,17 +1,75 @@
 /* Media Queries Example */
 
 /* Styles for devices with a max width of 768px (tablets) */
-@media (max-width: 768px) {
-    .container {
-        background-color: lightgreen;
-        font-size: 18px;
+@media only screen and (max-width: 1400px) {
+    nav img {
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px 5px 10px;
     }
+
+    nav h2 {
+        font-size: 14px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    .airNavBar ul {
+        padding: 2px;
+        margin: 2px auto;
+        font-size: 12px;
+    }
+
+    nav button {
+        padding: 2px;
+        font-size: 10px;
+        font-weight: bolder;
+        margin: 2px;
+    }
+
+    .section3Div1 {
+        width: 40%;
+        padding: 20px 0px 0px 80px;
+    }
+
+    .section3Div1 h1 {
+        font-size: 25px;
+    }
+
+    .section3Div1 span {
+        font-size: 20px;
+    }
+
+    .section3Div1 h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .section3Div1 hr {
+        width: 35%;
+    }
+
+    .section3Div1 h3 {
+        font-size: 15px;
+    }
+
+    .section3Div1 button {
+        font-size: 10px;
+        padding: 6px;
+        margin-top: 5px;
+    }
+
+    .section3Div2 {
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    .section3Div2 img {
+        width: 50%;
+    }
+
 }
 
-/* Styles for devices with a max width of 480px (mobile phones) */
-@media (max-width: 480px) {
-    .container {
-        background-color: lightcoral;
-        font-size: 16px;
-    }
-}
+@media only screen and (max-width: 1400px) {}
