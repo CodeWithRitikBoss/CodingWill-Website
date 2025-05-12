@@ -241,17 +241,13 @@ nav button:hover {
     color: #3c3a5d;
 }
 .searchBar input {
-    /* width: 50%; */
-    /* height: 20px; */
     text-align: center;
-    /* border-radius: 20px; */
     font-size: 20px;
     font-style: italic;
     color: var(--darkColor2);
     flex: 1;
-    /* height: 20px; */
     border: none;
-    /* outline: none; */
+    outline: none;
     margin-right: 10px;
     margin-left: 10px;
     padding: 0px 5px 0px 5px;
