@@ -29,9 +29,9 @@ header {
 .section1 {
     background-color: var(--darkColor1);
 }
-.section2 {
-    /* background-color: #cbaeae; */
-}
+/* .section2 {
+    background-color: #cbaeae;
+} */
 .section3 {
     display: flex;
     /* background-color: #cbaeae; */
@@ -55,9 +55,9 @@ header {
     padding: 10px;
     /* margin: auto; */
 }
-.section7 {
+/* .section7 {
     
-}
+} */
 .section8 {
     background-color: var(--darkColor4);
     padding: 1px;
