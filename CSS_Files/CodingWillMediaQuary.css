@@ -2,6 +2,10 @@
 
 /* Styles for devices with a max width of 768px (tablets) */
 @media only screen and (max-width: 1400px) {
+    * {
+        box-sizing: border-box;
+    }
+
     nav img {
         width: 30px;
         height: 30px;
@@ -30,8 +34,8 @@
     }
 
     .section3Div1 {
-        width: 40%;
-        padding: 20px 0px 0px 80px;
+        width: 50%;
+        padding: 10px 0px 0px 80px;
     }
 
     .section3Div1 h1 {
@@ -58,7 +62,7 @@
     .section3Div1 button {
         font-size: 10px;
         padding: 6px;
-        margin-top: 5px;
+        margin-top: 4px;
     }
 
     .section3Div2 {
@@ -70,6 +74,37 @@
         width: 50%;
     }
 
+    .section4Div2 h2 {
+        text-align: start;
+        margin-left: 5px;
+        font-size: large;
+    }
+
+    .smallCard {
+        border-radius: 8px;
+        width: 30%;
+        height: min-content;
+        margin: 20px;
+    }
+
+    .section4Div3 h2 {
+        text-align: start;
+        margin-left: 5px;
+        font-size: large;
+    }
+
+    .section6Div1 img {
+        width: 60px;
+        margin: auto;
+    }
+
+    .section6Div2 img {
+        width: 40px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
 }
 
-@media only screen and (max-width: 1400px) {}
+@media only screen and (max-width: 850px) {}
