@@ -21,6 +21,7 @@
 .hero {
     height: 100%;
     width: 100%;
+    min-height: 700px;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/Web-Development_Full_Course/Poster_Files/poster1.png); */
     /* background-image: url(/Web-Development_Full_Course/Image_Files/image2.jpg); */
 
@@ -33,7 +34,7 @@
 
 .formBox {
     width: 380px;
-    height: 480px;
+    min-height: 480px;
     position: relative;
     margin: 6% auto;
     /* background: #fff;     */

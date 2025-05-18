@@ -75,7 +75,7 @@ nav {
 nav img{
     width: 40px;
     height: 40px;
-    margin: 5px 5px 5px 10px;
+    margin: 5px 5px 5px 5px;
 }
 .rotateImage:hover{
     transform: rotate(359deg);
@@ -84,7 +84,7 @@ nav img{
 nav h2{
     width: 20%;
     color: white;
-    margin: 15px 10px 15px 10px;
+    /* margin: 15px 10px 15px 10px; */
     font-weight: bolder;
 }
 nav ul{
@@ -98,7 +98,7 @@ nav ul{
     margin-right: 20px;
 }
 nav ul li{
-    padding: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
     color: white;
     /* background-color: yellow;
     margin-right: 20px;
@@ -408,7 +408,7 @@ nav button:hover {
     padding-top: 2%;
 }
 .contact img {
-    width: 30px;
+    /* width: 30px; */
     height: 30px;
     padding-left: 30%;
 }
