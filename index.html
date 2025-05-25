@@ -30,7 +30,7 @@
         <div class="section1">
             <nav>
                 <img class="rotateImage" src="Images/CodingWill Things/CodingWill Logo.png" alt="CodingWill Logo">
-                <h2>&lt;/&gt; CodingWill</h2>
+                <h2 id="logoName">&lt;/&gt; CodingWill</h2>
                 <div class="navMenu">
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -40,8 +40,11 @@
                         <li><a href="Other_Pages/PracticePage/PracticePage.html">Practices</a></li>
                         <li><a href="Other_Pages/ContactPage/ContactPage.html">Contact Us</a></li>
                         <li><a href="Other_Pages/MyGearPage/MyGearPage.html">My Gear</a></li>
-                        <button id="login"><a href="Other_Pages/RegistrationForms/RegistrationForm.html">Login</a></button>
-                        <button id="signup"><a href="Other_Pages/RegistrationForms/RegistrationForm.html">Signup</a></button>
+                        <!-- <button id="themeButton">Theme</button> -->
+                        <button id="login"><a
+                                href="Other_Pages/RegistrationForms/RegistrationForm.html">Login</a></button>
+                        <button id="signup"><a
+                                href="Other_Pages/RegistrationForms/RegistrationForm.html">Signup</a></button>
                     </ul>
                 </div>
             </nav>
@@ -49,7 +52,7 @@
         <!-- Code for air navigation bar. -->
         <div class="section2">
             <div class="airNavBar">
-                <ul>
+                <ul id="airNav">
                     <li><a href="#">C</a></li>
                     <li><a href="#">C++</a></li>
                     <li><a href="#">Java</a></li>
@@ -72,8 +75,8 @@
                 <h2>The Best way for <br> Your Learning</h2>
                 <hr>
                 <h3>Knowledge for everyone,<br>everyWhere.</h3>
-                <button class="section3DivBtn1">Free Courses</button>
-                <button class="section3DivBtn2">Explore More</button>
+                <button id="freeCourses" class="btn section3DivBtn1">Free Courses</button>
+                <button id="exploreMoreButton" class="btn section3DivBtn2">Explore More</button>
             </div>
             <div class="section3Div2">
                 <img src="Images/CodingWill Things/Dashboard Image.svg" alt="Dashboard Image">
@@ -298,7 +301,8 @@
                     <p>Explore tutorials, courses, and projects to enhance your coding skills.</p>
                 </div>
                 <div class="section8Div2">
-                    <h3>Top Tutorials</h3><hr>
+                    <h3>Top Tutorials</h3>
+                    <hr>
                     <p>HTML Tutorial</p>
                     <p>CSS Tutorial</p>
                     <p>JavaScript Tutorial</p>
@@ -310,7 +314,8 @@
                     <p>C++ Tutorial</p>
                 </div>
                 <div class="section8Div3">
-                    <h3>Get Certified</h3><hr>
+                    <h3>Get Certified</h3>
+                    <hr>
                     <p>HTML Certificate</p>
                     <p>CSS Certificate</p>
                     <p>JavaScript Certificate</p>
@@ -322,7 +327,8 @@
                     <p>C Certificate</p>
                 </div>
                 <div class="section8Div4">
-                    <h3>Contact Us</h3><hr>
+                    <h3>Contact Us</h3>
+                    <hr>
                     <div class="contactDiv">
                         <div class="contact">
                             <img src="Images/Logo Images/YouTube.png" alt="YouTube Logo">
@@ -355,13 +361,13 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Learn HTML.', 'Learn CSS.', 'Learn JavaScript.', 'Learn C Programming.', 'Learn C++ Programming.', 'Learn JAVA Programming.', 'Learn Python Programming.', 'Learn Android development', 'Learn MySQL Database.', 'Learn Web development.'],
+            strings: ['Learn HTML.', 'Learn CSS.', 'Learn JavaScript.', 'Learn C Programming.', 'Learn C++ Programming.', 'Learn JAVA Programming.', 'Learn JAVA Swing Programming', 'Learn JavaFX Programming', 'Learn Kotlin Programming', 'Learn Python Programming.', 'Learn Android development', 'Learn MySQL Database.', 'Learn Web development.', '-', 'Learn HTML.', 'Learn CSS.', 'Learn JavaScript.', 'Learn C Programming.', 'Learn C++ Programming.', 'Learn JAVA Programming.', 'Learn JAVA Swing Programming', 'Learn JavaFX Programming', 'Learn Kotlin Programming', 'Learn Python Programming.', 'Learn Android development', 'Learn MySQL Database.', 'Learn Web development.'],
             typeSpeed: 60,
         });
     </script>
     <script>
         var typed = new Typed('#element1', {
-            strings: ['Search for what you want to learn',''],
+            strings: ['Search for what you want to learn'],
             typeSpeed: 50,
         });
     </script>

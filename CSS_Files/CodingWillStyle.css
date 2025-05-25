@@ -24,13 +24,13 @@ body {
 .floatingButton {
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
-    background-color: var(--darkColor1);
+    /* border: 2px solid white; */
+    /* background-color: var(--darkColor1); */
     border-radius: 50%;
     cursor: pointer;
     position: fixed;
     bottom: 20px;
-    right: 50px
+    right: 20px
 }
 
 .floatingButton img {
@@ -41,11 +41,12 @@ body {
 header {
     position: sticky;
     top: 0;
-}   
+}
 
 .section1 {
     background-color: var(--darkColor1);
 }
+
 /* .section2 {
     background-color: #cbaeae;
 } */
@@ -54,6 +55,7 @@ header {
     /* min-height: 3vw; */
     /* background-color: #cbaeae; */
 }
+
 .section4 {
     background-color: var(--darkColor1);
     text-align: center;
@@ -61,18 +63,21 @@ header {
     color: white;
     padding-bottom: 5px;
 }
+
 .section5 {
     background-color: var(--darkColor2);
     color: white;
     text-align: center;
     padding: 10px;
 }
+
 .section6 {
     background-color: var(--darkColor3);
     color: white;
     padding: 10px;
     /* margin: auto; */
 }
+
 /* .section7 {
     
 } */
@@ -89,48 +94,67 @@ nav {
     background-color: var(--darkColor1);
 }
 
-nav img{
+nav img {
     width: 40px;
     height: 40px;
     margin: 5px 5px 5px 5px;
 }
-.rotateImage:hover{
+
+.rotateImage:hover {
     transform: rotate(359deg);
     transition: transform 0.5s ease;
 }
-nav h2{
+
+nav h2 {
     width: 20%;
     color: white;
     /* margin: 15px 10px 15px 10px; */
     font-weight: bolder;
 }
-nav ul{
+
+nav ul {
     display: flex;
     font-size: 16px;
     list-style: none;
     justify-content: flex-end;
 }
-.navMenu{
+
+.navMenu {
     width: 100%;
     margin-right: 20px;
 }
-nav ul li{
+
+nav ul li {
     padding: 5px 5px 5px 5px;
     color: white;
     /* background-color: yellow;
     margin-right: 20px;
     border-radius: 50px; */
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: yellowgreen;
     /* background-color: blue;
     border-radius: 10%; */
     padding: 2px;
 }
+
+.modeButton {
+    background-color: rgb(146, 238, 41);
+    border: none;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bolder;
+    /* margin: 5px; */
+    padding: 5px;
+}
+
 nav button {
     background-color: skyblue;
     border: none;
@@ -140,16 +164,18 @@ nav button {
     font-weight: bolder;
     margin: 5px;
 }
-nav ul button a{
+
+nav ul button a {
     color: var(--color1);
     text-decoration: none;
 }
+
 nav button:hover {
     background-color: yellowgreen;
 }
 
 /* Air nav bar */
-.airNavBar ul{
+.airNavBar ul {
     width: fit-content;
     padding: 5px;
     display: flex;
@@ -161,52 +187,62 @@ nav button:hover {
     border-radius: 10px;
     box-shadow: 1px 4px 10px var(--darkColor3);
 }
-.airNavBar ul li{
+
+.airNavBar ul li {
     padding: 5px 15px 5px 15px;
     list-style: none;
 }
-.airNavBar ul a{
+
+.airNavBar ul a {
     color: whitesmoke;
     text-decoration: none;
 }
-.airNavBar ul a:hover{
+
+.airNavBar ul a:hover {
     color: greenyellow;
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
 .section3Div1 {
     width: 60%;
     padding: 50px 0px 0px 100px;
     /* padding: 10px; */
 
 }
+
 .section3Div1 h1 {
     color: blue;
     font-size: 45px;
     margin: 0;
 }
+
 .section3Div1 span {
     color: #413278;
     font-size: 40px;
     font-weight: bolder;
 }
+
 .section3Div1 h2 {
     color: #497ABA;
     font-size: 30px;
     font-weight: bolder;
     margin-top: 25px;
 }
-.section3Div1 hr{
+
+.section3Div1 hr {
     width: 30%;
     border: 3px solid black;
     margin: 0px;
 }
+
 .section3Div1 h3 {
     color: #497ABA;
     font-size: 20px;
     font-weight: bolder;
     margin-top: 10px;
 }
+
 .section3Div1 button {
     padding: 10px;
     border: none;
@@ -219,25 +255,30 @@ nav button:hover {
     margin-top: 20px;
     margin-right: 20px;
 }
+
 .section3DivBtn1 {
     background-color: var(--darkColor1);
     color: var(--lightColor1);
 }
+
 .section3Div1 button:hover {
     background-color: greenyellow;
     box-shadow: 2px 5px 8px blue;
     color: var(--darkColor1);
     padding: 8px;
 }
+
 .section3Div2 {
     width: 40%;
     display: flex;
     justify-content: flex-end;
     margin-right: 5%;
 }
+
 .section3Div2 img {
     width: 60%;
 }
+
 /* .section3 {
     height: 450px;
 } */
@@ -254,13 +295,16 @@ nav button:hover {
     /* box-shadow: 0 10px 25px rgba(252, 251, 251, 0.3); */
     box-shadow: 2px 5px 8px blue;
 }
+
 .searchBar:hover {
     box-shadow: 2px 5px 8px var(--lightColor2);
 }
-.searchBar > i {
+
+.searchBar>i {
     font-size: 25px;
     color: #3c3a5d;
 }
+
 .searchBar input {
     text-align: center;
     font-size: 20px;
@@ -273,14 +317,17 @@ nav button:hover {
     margin-left: 10px;
     padding: 0px 5px 0px 5px;
 }
+
 .section4Div1 h2 {
     margin-top: 25px;
     color: white;
 }
+
 .section4Div1 p {
     /* width: 50%; */
     color: var(--lightColor2);
 }
+
 .cardDiv {
     display: flex;
     flex-direction: row;
@@ -290,6 +337,7 @@ nav button:hover {
     margin-bottom: 30px;
     justify-content: center;
 }
+
 .transition {
     transform: translateY(10vh);
     transition-property: transform;
@@ -297,6 +345,7 @@ nav button:hover {
     transition-timing-function: ease-in-out;
     transition-delay: 1s;
 }
+
 .card {
     /* border: none; */
     /* border: 2px solid var(--lightColor2); */
@@ -307,25 +356,31 @@ nav button:hover {
     box-shadow: 2px 4px 8px var(--lightColor2);
     cursor: pointer;
 }
+
 .cardImage img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
 .cardText p {
     padding: 5px;
 }
+
 .card:hover {
     box-shadow: 2px 4px 8px greenyellow;
 }
+
 .section4Div2 {
     color: white;
     margin-top: 0px;
 }
+
 .section4Div2 h2 {
     text-align: start;
     margin-left: 10px;
 }
+
 .smallCard {
     cursor: pointer;
     border: none;
@@ -337,29 +392,36 @@ nav button:hover {
     box-shadow: 2px 4px 8px var(--lightColor2);
     color: var(--lightColor2);
 }
+
 .smallCard h1 {
     text-align: end;
     margin-right: 20px;
 }
+
 .smallCard:hover {
     box-shadow: 2px 4px 8px greenyellow;
 }
+
 .section4Div3 h2 {
     text-align: start;
     margin-left: 10px;
 }
+
 .heading2 {
     display: flex;
     justify-content: start;
     padding-left: 50px;
 }
+
 .section5 h2 {
     font-size: 50px;
     margin: 0px;
 }
+
 .section5 p {
     color: var(--lightColor2);
 }
+
 .section5 button {
     background-color: rgba(6, 6, 65, 0.749);
     border: 1px solid white;
@@ -372,21 +434,25 @@ nav button:hover {
     margin: 10px;
     margin-bottom: 30px;
 }
+
 .section6 h2 {
     text-align: center;
 }
+
 .circularCard {
     width: 80%;
     display: flex;
     justify-content: center;
     margin: auto;
 }
+
 .section6Div1 img {
     width: 80px;
     margin: auto;
     /* border: 2px solid var(--darkColor1);
     border-radius: 100px; */
 }
+
 .section6Div2 img {
     width: 60px;
     margin: 10px;
@@ -395,28 +461,34 @@ nav button:hover {
     /* border: 2px solid var(--darkColor3);
     border-radius: 100px; */
 }
+
 .section8 h4 {
     color: var(--lightColor2);
     text-align: center;
 }
+
 .footerSection {
     color: white;
     width: 100%;
     display: flex;
 }
+
 .footerSection div {
     width: 100%;
     text-align: center;
 }
+
 .section8Div1 img {
     width: 60px;
     margin: 5px 5px 5px 10px;
 }
+
 .footerSection div p {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
 }
+
 .contactDiv {
     margin: auto;
     display: flex;
@@ -424,6 +496,7 @@ nav button:hover {
     padding: 0;
     margin: 0;
 }
+
 .contact {
     display: flex;
     justify-content: start;
@@ -431,19 +504,27 @@ nav button:hover {
     cursor: pointer;
     padding-top: 2%;
 }
+
 .contact img {
     /* width: 30px; */
     height: 30px;
     padding-left: 30%;
 }
+
 .contact p {
     padding: 0;
     margin: 0;
 }
+
 .section8Div4 hr {
     margin-right: 20px;
 }
 
 .dark-theme-color1 {
     background-color: var(--color1);
+}
+
+.lightTheme {
+    background-color: white;
+    color: black;
 }

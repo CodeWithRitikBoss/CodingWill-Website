@@ -1,4 +1,19 @@
 console.log("I am practicing the JS.")
+// This is the starting point of your JavaScript file
+// console.log("Hello, World!");
+console.log("Welcome to CodingWill.\n\n")
+
+// Add your JavaScript code below
+// alert("Welcome to CodingWill.")
+// var a = prompt("Enter Your number")
+// console.log("The value of a is : "+ a)
+
+// var isTrue = confirm("Are you sure do you want to exit.")
+// if(isTrue){
+//     console.log("Exit Successfully.")
+// }else{
+//     console.log("Not Exit.")
+// }
 
 // JS Variables
 
@@ -195,8 +210,74 @@ console.log("I am practicing the JS.")
 // arr.push("Ritik")
 // console.log(arr)
 
-let arr1 = [112, 23, 34, 45]
+// let arr1 = [112, 23, 34, 45]
 
-console.log(arr1)
-arr1.sort()
-console.log(arr1.sort())
+// console.log(arr1)
+// arr1.sort()
+// console.log(sorted)
+
+// let arr1 = ['Learn HTML.', 'Learn CSS.', 'Learn JavaScript.', 'Learn C Programming.', 'Learn C++ Programming.', 'Learn JAVA Programming.', 'Learn JAVA Swing Programming', 'Learn JavaFX Programming', 'Learn Kotlin Programming', 'Learn Python Programming.', 'Learn Android development', 'Learn MySQL Database.', 'Learn Web development.'];
+// // console.log(arr1);
+
+// for (element in arr1){
+//     console.log(element, arr1[element]);
+// }
+
+
+
+
+// // **** Starting Object Oriented Programming ****.
+
+// class Phone {
+//     constructor(brandName){
+//         this.brandName = brandName
+//     }
+//     ringing(){
+//         console.log("Phone is Ringing...")
+//     }
+//     async call(number){
+//         this.ringing()
+//         setTimeout(()=>{
+//             console.log("Calling on ", number, "...")
+//         }, 6000)
+//     }
+//     radio(){
+//         console.log("Playing Radio.")
+//     }
+// }
+// class SmartPhone extends Phone {
+//     constructor(brandName){
+//         super(brandName)
+//     }
+//     playMusic(){
+//         console.log("Music is Playing...")
+//     }
+//     openApp(appName){
+//         console.log("Opening: ", appName)
+//     }
+//     videoCall(number){
+//         console.log("Video Calling on ", number, "...")
+//     }
+// }
+
+
+// let phone = new Phone("NOKIA");
+// console.log("I bought", phone.brandName, "Phone.")
+// phone.call("7500788252");
+
+// let smartPhone = new SmartPhone("SAMSUNG")
+// console.log("I bought",smartPhone.brandName, "Smart Phone.")
+// smartPhone.call("1223")
+// // smartPhone.radio()
+// smartPhone.playMusic()
+// smartPhone.openApp("YouTube")
+// smartPhone.openApp("WhatsApp")
+// smartPhone.videoCall("123345")
+
+// let phone = new Phone("Nokia")
+// console.log(phone.brandName)
+// phone.playMusic() // this will throw an error due to playMusic funtion is a smartclass function.
+
+
+// // **** Ending Object Oriented Programming ****.
+
